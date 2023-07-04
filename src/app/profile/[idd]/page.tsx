@@ -5,7 +5,7 @@ const Profile = ({params}: any) => {
     <div>
         <h1>Profile</h1>
         <hr />
-        <p className='text-4xl'>{params.id}</p>
+        <p className='text-4xl'>{params.idd}</p>
     </div>
   )
 }
